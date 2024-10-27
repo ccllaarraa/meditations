@@ -1,0 +1,111 @@
+.pompiere {
+  font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.1;
+}
+body {
+  background-color: #ebebdd;
+}
+.ornament {
+  font-family: "Yarndings 20", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.about {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  color: rgb(165, 5, 194);
+  cursor: pointer;
+  font-size: 100px;
+  user-select: none;
+
+}
+.about:hover {
+  color: rgb(232, 234, 99);
+}
+
+.audio {
+  display: flex;
+  font-size: 40px;
+  align-items: center;
+  margin: 30px 100px 30px 150px;
+  color: #4e3605;
+  user-select: none;
+}
+.audio:first-of-type {
+  margin-top: 100px;
+}
+.pause, .play {
+  cursor: pointer;
+  margin-right: 20px;
+width: 35px;
+user-select: none;
+}
+.audio:hover {
+  color: limegreen;
+  cursor: pointer;
+}
+.pause {
+  display: none;
+}
+.audio .ornament {
+  padding: 0 20px;
+  align-self: center;
+}
+.background {
+  position: fixed;
+  z-index: -1;
+  width: 80vw;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  opacity: 0.7;
+  bottom: 0;
+}
+.about-content img {
+  max-width: 200px;
+  height: 70px;
+  margin: 20px 5px 0 5px;
+}
+.about-content {
+  position: fixed;
+  bottom: 20px;
+  left: 117px;
+  color: rgb(165, 5, 194);
+  font-size: 22px;
+  display: none;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.about-content .text {
+  max-width: 500px;
+}
+
+.show {
+  display: flex !important;
+}
+
+@media only screen and (max-width: 760px) {
+ .audio {
+  font-size: 30px;
+  margin: 30px 30px 30px 30px;
+ }
+ .audio:first-of-type {
+  margin-top: 30px;
+ }
+ .about-content {
+  font-size: 15px;
+ }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .audio {
+   font-size: 20px;
+  }
+ 
+ }
