@@ -6,6 +6,7 @@
 }
 body {
   background-color: #ebebdd;
+  margin-bottom: 200px;
 }
 .ornament {
   font-family: "Yarndings 20", system-ui;
@@ -36,6 +37,9 @@ body {
 }
 .audio:first-of-type {
   margin-top: 100px;
+}
+.audio:nth-last-of-type() {
+  margin-bottom: 200px;
 }
 .pause, .play {
   cursor: pointer;
