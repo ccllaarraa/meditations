@@ -104,8 +104,8 @@ user-select: none;
   font-size: 15px;
  }
  .background {
-  bottom: unset;
-  top: 35vh;
+  bottom: 10vh;
+  top: unset;
  };
 }
 
